@@ -48,7 +48,7 @@ const Login = () => {
               />
             </div>
 
-            <div className="flex items-center justify-between py-1">
+            {/* <div className="flex items-center justify-between py-1">
               <div className="flex items-center">
                 <input 
                   type="checkbox" 
@@ -62,7 +62,7 @@ const Login = () => {
               <Link to="/auth/forgot-pw" className="text-sm text-blue-600 hover:underline">
                 Forgot your password?
               </Link>
-            </div>
+            </div> */}
 
             <button 
               className="mt-4 flex w-full items-center justify-center rounded-lg bg-blue-600 px-4 py-2.5 text-sm font-semibold text-white transition-all hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" 
