@@ -1,4 +1,7 @@
 import { lazy } from 'react';
+import ProtectedRoute from '@/components/ProtectedRoute';
+
+//home page
 const HomePage = lazy(() => import('@/app/(home)/page'));
 
 //pages
@@ -26,7 +29,7 @@ const ComingSoon6 = lazy(() => import('@/app/(coming-soon-pages)/coming-soon-6/p
 const demoPages = [{
   path: '/',
   name: 'root',
-  element: <SaasPage />
+  element: <ProtectedRoute><SaasPage /></ProtectedRoute>
 }, {
   path: '/demos/directory',
   name: 'Directory',
