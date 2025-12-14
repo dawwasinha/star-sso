@@ -49,3 +49,4 @@ export default tseslint.config({
 })
 ```
 # sso-art
+# star-sso
