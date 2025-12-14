@@ -40,6 +40,7 @@ const Services = () => {
           {applications.map((app, idx) => <div 
               className="group relative overflow-hidden rounded-2xl bg-white p-8 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl flex justify-between flex-col h-full" 
               key={idx}
+              onClick={() => handleAppClick(app.link)}
             >
               <div>
                 <div className="absolute right-0 top-0 h-32 w-32 -translate-y-8 translate-x-8 rounded-full bg-gradient-to-br from-primary/5 to-transparent" />
@@ -56,7 +57,6 @@ const Services = () => {
               <div className="mt-6 flex items-center font-semibold text-primary transition-all group-hover:translate-x-2">
                 <a 
                   className="text-sm cursor-pointer"
-                  onClick={() => handleAppClick(app.link)}
                 >
                   Pelajari lebih lanjut
                 </a>

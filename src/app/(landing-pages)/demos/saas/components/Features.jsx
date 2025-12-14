@@ -1,5 +1,5 @@
 import saasImg2 from '@/assets/images/landing/saas/arise2.png';
-import saasImg from '@/assets/images/landing/saas/arise3.png';
+import saasImg from '@/assets/images/landing/saas/trace3.png';
 const Features = () => {
   return <section id="features" className="bg-slate-50 bg-[url(../images/landing/saas/hero-3-bg.png)] bg-cover bg-left bg-no-repeat">
       <div className="py-24">

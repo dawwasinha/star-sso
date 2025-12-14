@@ -1,0 +1,1 @@
+import{j as a,H as t,D as s}from"./index-Cmxy5wIc.js";const r=({title:e})=>a.jsx(t,{children:a.jsx("title",{children:e?`${e} | Opixo React - Tailwind CSS Multipurpose Landing Page Template`:s})});export{r as P};
